@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('./lockers.jpg') center bottom no-repeat;
+    background-size: cover; 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 25px;
+    margin: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 25px;
+    margin: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+}
+.errors {
+    height: 10rem;
+    margin: 1rem auto;
+    width: 50%;
+}
+.errormsg {
+    text-align: center;
+    border-radius: 55px;
+    color: white;
+    background: rgba(145, 0, 0, 0.756);
+    padding: 10px;
+}
